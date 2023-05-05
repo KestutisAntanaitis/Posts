@@ -33,7 +33,7 @@ You need to have MySQL installed if you want to use same configuration as in the
 
 1.Clone the repo
    ```sh
-   git clone https://github.com/KestutisAntanaitis/Blog.git
+   git clone https://github.com/KestutisAntanaitis/Posts.git
    ```
 
 
@@ -57,6 +57,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Kęstutis Antanaitis - kestutisantanaitis1992@gmail.com
 
-Project Link: Blog https://github.com/KestutisAntanaitis/Blog.git
+Project Link: Blog https://github.com/KestutisAntanaitis/Posts.git
 
+# Posts
 # Posts
