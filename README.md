@@ -59,10 +59,3 @@ Kęstutis Antanaitis - kestutisantanaitis1992@gmail.com
 
 Project Link: Blog https://github.com/KestutisAntanaitis/Blog.git
 
-# Posts
-# Posts
-# MyBlog
-# MyBlog
-# MyBlog
-# MyBlog
-# Posts
