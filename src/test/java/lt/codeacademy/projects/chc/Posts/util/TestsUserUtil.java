@@ -1,7 +1,7 @@
-package lt.codeacademy.projects.chc.coronahatersclub.util;
+package lt.codeacademy.projects.chc.Posts.util;
 
-import lt.codeacademy.projects.chc.coronahatersclub.entity.User;
-import lt.codeacademy.projects.chc.coronahatersclub.enums.UserRole;
+import lt.codeacademy.projects.chc.Posts.entity.User;
+import lt.codeacademy.projects.chc.Posts.enums.UserRole;
 
 public class TestsUserUtil {
 

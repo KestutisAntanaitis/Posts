@@ -1,14 +1,14 @@
-package lt.codeacademy.projects.chc.coronahatersclub.service;
+package lt.codeacademy.projects.chc.Posts.service;
 
 
-import lt.codeacademy.projects.chc.coronahatersclub.entity.Comment;
-import lt.codeacademy.projects.chc.coronahatersclub.entity.Post;
-import lt.codeacademy.projects.chc.coronahatersclub.entity.User;
-import lt.codeacademy.projects.chc.coronahatersclub.exception.CustomValidationException;
-import lt.codeacademy.projects.chc.coronahatersclub.repository.CommentRepository;
-import lt.codeacademy.projects.chc.coronahatersclub.repository.PostRepository;
-import lt.codeacademy.projects.chc.coronahatersclub.repository.UserRepository;
-import lt.codeacademy.projects.chc.coronahatersclub.validator.CommentActionValidator;
+import lt.codeacademy.projects.chc.Posts.entity.Comment;
+import lt.codeacademy.projects.chc.Posts.entity.Post;
+import lt.codeacademy.projects.chc.Posts.entity.User;
+import lt.codeacademy.projects.chc.Posts.exception.CustomValidationException;
+import lt.codeacademy.projects.chc.Posts.repository.CommentRepository;
+import lt.codeacademy.projects.chc.Posts.repository.PostRepository;
+import lt.codeacademy.projects.chc.Posts.repository.UserRepository;
+import lt.codeacademy.projects.chc.Posts.validator.CommentActionValidator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,12 +17,11 @@ import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.firewall.RequestRejectedException;
 
 import javax.transaction.Transactional;
-import java.security.InvalidParameterException;
 import java.util.List;
 import java.util.Optional;
 
-import static lt.codeacademy.projects.chc.coronahatersclub.util.TestsPostUtil.createTestPost;
-import static lt.codeacademy.projects.chc.coronahatersclub.util.TestsUserUtil.*;
+import static lt.codeacademy.projects.chc.Posts.util.TestsPostUtil.createTestPost;
+import static lt.codeacademy.projects.chc.Posts.util.TestsUserUtil.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest

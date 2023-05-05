@@ -1,7 +1,7 @@
-package lt.codeacademy.projects.chc.coronahatersclub.util;
+package lt.codeacademy.projects.chc.Posts.util;
 
-import lt.codeacademy.projects.chc.coronahatersclub.entity.Post;
-import lt.codeacademy.projects.chc.coronahatersclub.entity.User;
+import lt.codeacademy.projects.chc.Posts.entity.Post;
+import lt.codeacademy.projects.chc.Posts.entity.User;
 
 public class TestsPostUtil {
 

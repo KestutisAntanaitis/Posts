@@ -1,13 +1,13 @@
-package lt.codeacademy.projects.chc.coronahatersclub.controller;
+package lt.codeacademy.projects.chc.Posts.controller;
 
-import lt.codeacademy.projects.chc.coronahatersclub.entity.User;
-import lt.codeacademy.projects.chc.coronahatersclub.service.CommentService;
+import lt.codeacademy.projects.chc.Posts.entity.User;
+import lt.codeacademy.projects.chc.Posts.service.CommentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import static lt.codeacademy.projects.chc.coronahatersclub.util.TestsUserUtil.createTestUserUser1;
+import static lt.codeacademy.projects.chc.Posts.util.TestsUserUtil.createTestUserUser1;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
